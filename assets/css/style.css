@@ -1,0 +1,32 @@
+.top-panel{
+
+}
+
+.name-box{
+   display:block;
+    background-color: mediumpurple;
+    width: 275px;
+    height: 75px;
+    color: white;
+    text-align: center;
+    line-height: 75px;
+    float: left;
+    
+
+}
+.name-text{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation-box{
+    float: left;;
+}
+
+.navigation-bar{
+    list-style: none;
+
+}
+
+li{
+    display: inline;
+}
