@@ -1,6 +1,13 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <!--Some placeholder JS-->
+        <script type="text/javascript">
+            function submitClick()
+            {
+            alert("Your information has been sent to the president, thank you");
+            }
+        </script>
     <!--CSS-->
     <link rel="stylesheet" href="assets/css/normalize.css"/>
     <link rel="stylesheet" href = "assets/css/style.css"/>
@@ -9,7 +16,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>About Me</title>
+    <title>Contact</title>
 </head>
 <body>
     <!--MAIN CONTAINER-->
@@ -24,11 +31,11 @@
                 
                 <!--NAVIGATION-->
                 <ul id="nav">
-                    <li class="nav-item"><a href="index.html">About</a></li>
+                    <a href="index.html"><li class="nav-item">About</li></a>
                     <li>|</li>
-                    <li class="nav-item"><a href="portfolio.html">Portfolio</a></li>
+                    <a href="portfolio.html"><li class="nav-item">Portfolio</li></a>
                     <li>|</li>
-                    <li class="nav-item"><a href="contact.html">Contact</a></li>
+                    <a href="contact.html"><li class="nav-item">Contact</li></a>
                 </ul>
             </div>
         </header>
@@ -41,9 +48,30 @@
                         <p>Contact</p>
                     </div>
                     <div id="content-border"></div>
-                </div>  
-               
-                
+                </div>
+                <ul id="content-body">
+                    <li class="input-label-row">
+                        <label for="content-name">Name</label>
+                    </li>
+                    <li class="input-field-row">
+                        <input type="text" id="content-name" placeholder="John Doeboy"/>
+                    </li>
+                    <li class="input-label-row">
+                            <label for="content-email">Email</label>
+                    </li>
+                    <li class="input-field-row">
+                            <input type="email" id="content-email" placeholder="example@gmail.com"/>
+                    </li>
+                    <li class="input-label-row">
+                            <label for="content-message">Message</label>
+                    </li>
+                    <li class="input-field-row" id="messageFieldLine">
+                            <textarea  id="content-message"></textarea>
+                     </li>
+                     <li class="input-label-row" id="buttonFieldLine">
+                            <button type="submit" onclick="submitClick()">Submit</button>
+                     </li>
+                </ul>
             </div>
         </section>
 
@@ -59,3 +87,5 @@
     
 </body>
 </html>
+
+
