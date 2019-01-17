@@ -1,0 +1,47 @@
+    
+.project-row{
+    display: flex;
+    width:100%;
+    flex-direction: row;
+    align-content: stretch;
+    justify-content: center;
+    position: relative;
+    height: calc((100vh - 300px - 20%)/3);
+    margin: 3px 0 3px 0;
+}
+
+.project-cell{
+    position:relative;
+    width: 25%;
+    margin:0 3px 0 3px;
+    padding:0 0 0 0;
+}
+.project-tile-wrapper{
+    position:relative;
+    height:100%;
+    width:100%;
+    margin:0 0 0 0;
+}
+
+.project-image{
+    position:absolute;
+    height:100%;
+    width:100%;
+    margin:0 0 0 0;
+}
+
+.project-banner{
+    vertical-align: middle;
+    position: absolute;
+    top: 65%;
+    left:50%;
+    background-color:#4aaaa5;
+    position:relative;
+    height: 25%;
+    width:100%;
+    transform: translate(-50%);
+    text-align: center;
+    color:#ffffff;
+    padding:4px 0 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
